@@ -30,8 +30,9 @@ All the following strategies begin with getting `root` access to the router, eit
 - Determine whether there are unused [OpenWRT] GUI interfaces that could be leveraged
 
 ## Complete Reflashing with [OpenWRT]
+> This will not be possible if the Broadcom processor is hardened to not accept unencyrpted and unsigned images and if this is the case, we will be unable to determine out what the correct encryption key or signing key are.
 - Build [OpenWRT] images
-- Figure out how to reflsh router
+- Figure out how to reflash router
 - Flash [OpenWRT].
 
 [hacking Technicolor Gateways]: https://hack-technicolor.readthedocs.io/en/stable/
